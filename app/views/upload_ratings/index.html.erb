@@ -1,0 +1,7 @@
+
+<%= form_tag '/upload_ratings', method: :post, class: "dropzone", id: "media-dropzone" do %>
+  <div class="fallback">
+  <%= file_field_tag "excel", multiple: true%>
+</div>
+<% end %>
+
